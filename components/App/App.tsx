@@ -26,6 +26,7 @@ export default function App() {
         page: page,
         perPage: 12,
         search,
+        tag: "all",
       }),
     placeholderData: keepPreviousData,
   });
